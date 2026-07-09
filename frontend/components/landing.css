@@ -1,0 +1,70 @@
+.landing-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 85vh;
+}
+.landing-card{
+    padding: 40px 30px;
+    border-radius: 0px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+}
+.landing-title {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #b03060;
+}
+
+.landing-subtitle {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 12px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 140px;
+  transition: background-color 0.3s;
+}
+
+.buyer-btn {
+  background-color: #ff69b4;
+  color: white;
+}
+
+.buyer-btn:hover {
+  background-color: #ff4588;
+}
+
+.admin-btn {
+  background-color: #6d6c6c;
+  color: white;
+}
+
+.admin-btn:hover {
+  background-color: #4c4343;
+}
+
+.about-btn {
+  background-color: #d1c4e9;
+  color: #4a148c;
+}
+
+.about-btn:hover {
+  background-color: #b39ddb;
+}

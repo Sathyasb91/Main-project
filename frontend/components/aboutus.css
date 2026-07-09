@@ -1,0 +1,23 @@
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #fffafc;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-container h1,
+.about-container h2 {
+  color: #b23a48;
+}
+
+.about-container ul {
+  padding-left: 1.5rem;
+}
+
+.about-container li {
+  margin-bottom: 0.5rem;
+}

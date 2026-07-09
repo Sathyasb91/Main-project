@@ -1,0 +1,83 @@
+/* Wrapper */
+.user-list-cont {
+  padding: 30px;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+/* Heading */
+.user-list-cont .list h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+/* Table Styling */
+.user-list-cont .user-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* Table Header */
+.user-list-cont .user-table thead {
+  background-color: #343a40;
+  color: white;
+}
+
+.user-list-cont .user-table th {
+  padding: 12px;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Table Body */
+.user-list-cont .user-table td {
+  padding: 10px;
+  text-align: center;
+  font-size: 13px;
+  border-bottom: 1px solid #eee;
+}
+
+/* Hover Effect */
+.user-list-cont .user-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Buttons */
+.user-list-cont button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  margin: 2px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+/* Edit Button */
+.user-list-cont button:first-child {
+  background-color: #0d6efd;
+  color: white;
+}
+
+.user-list-cont button:first-child:hover {
+  background-color: #0b5ed7;
+}
+
+/* Delete Button */
+.user-list-cont button:last-child {
+  background-color: #dc3545;
+  color: white;
+}
+
+.user-list-cont button:last-child:hover {
+  background-color: #bb2d3b;
+}
+.user-list-cont td:last-child {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}

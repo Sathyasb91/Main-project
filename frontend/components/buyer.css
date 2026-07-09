@@ -1,0 +1,132 @@
+body {
+  background-color: #f9f9f9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.buyer-page {
+  margin-top: 40px;
+}
+
+/* Carousel Styling */
+.carousel-container {
+  max-width: 100%;
+  overflow:hidden;
+}
+
+.carousel-inner img {
+  height: 500px;
+  object-fit: cover;
+}
+
+/* Container for products */
+.container {
+  max-width: 1200px;
+}
+
+/* Product Card Styling */
+.card {
+  border: none;
+  transition: transform 0.3s eae-in-out, box-shadow 0.3s;
+  border-radius: 12px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+  height: 380px;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.card-text {
+  color: #333;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+/* Buttons */
+.btn {
+  font-size: 0.95rem;
+  padding: 8px 14px;
+  border-radius: 8px;
+}
+
+.btn i {
+  margin-right: 6px;
+}
+
+.btn-add-cart {
+  background-color: #ff69b4;
+  border-color: #ff69b4;
+  color: white;
+}
+
+.btn-wishlist {
+  color: #9285aa;
+}
+
+.btn-wishlist:hover {
+  background-color: #5b516f;
+  color: #fff;
+}
+
+/* Wishlist & Cart Button Spacing */
+.card .btn + .btn {
+  margin-left: 8px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .card-img-top {
+    height: 300px;
+  }
+
+  .carousel-inner img {
+    height: 300px;
+  }
+}
+
+.cart-qty-control {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  border: 2px solid rgb(230, 153, 209);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.qty-ctrl-btn {
+  width: 32px;
+  height: 34px;
+  background: white;
+  color: black;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+
+.qty-ctrl-btn:hover {
+  background: pink;
+}
+
+.qty-ctrl-count {
+  min-width: 32px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+  padding: 0 4px;
+}

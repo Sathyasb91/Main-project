@@ -1,0 +1,107 @@
+/* Page Wrapper */
+.wishlist-page {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  padding-bottom: 40px;
+}
+
+/* Heading */
+.wishlist-page h2 {
+  font-weight: 600;
+  color: #333;
+}
+
+/* Card */
+.wishlist-page .card {
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.wishlist-page .card:hover {
+  transform: translateY(-5px);
+}
+
+/* Image */
+.wishlist-page .card-img-top {
+  height: 220px;
+  object-fit: cover;
+}
+
+/* Card Body */
+.wishlist-page .card-body {
+  padding: 15px;
+}
+
+/* Product Name */
+.wishlist-page .card-title {
+  font-size: 16px;
+  font-weight: 500;
+  color: #222;
+}
+
+/* Price */
+.wishlist-page .card-text {
+  font-size: 15px;
+  color: #ff4d6d;
+  font-weight: 500;
+  
+}
+
+/* Buttons side by side */
+.wishlist-page .button-group {
+  display: flex;
+  gap: 10px;
+  margin-top: auto;
+}
+
+/* Equal width buttons */
+.wishlist-page .button-group .btn {
+  flex: 1;
+}
+
+/* Buttons container */
+.wishlist-page .card-body button {
+  font-size: 13px;
+  padding: 8px;
+  border-radius: 6px;
+  margin-top: 8px;
+  transition: 0.3s;
+}
+
+/* Remove Button */
+.wishlist-page .btn-danger {
+  background-color: #dc3545;
+  border: none;
+}
+
+.wishlist-page .btn-danger:hover {
+  background-color: #bb2d3b;
+}
+
+/* Add to Cart Button */
+.wishlist-page .btn-success {
+  background-color: #28a745;
+  border: none;
+}
+
+.wishlist-page .btn-success:hover {
+  background-color: #218838;
+}
+
+/* Button alignment */
+.wishlist-page .card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.wishlist-page .card-body button {
+  width: 100%;
+}
+
+/* Empty message */
+.wishlist-page p {
+  text-align: center;
+  font-size: 16px;
+  color: #666;
+}

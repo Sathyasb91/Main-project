@@ -1,0 +1,53 @@
+.admin-dash{
+    padding: 40px;
+    font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f6f8;
+  min-height: 100vh;
+}
+.dash-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+/* Card Container */
+.dash-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* Individual Card */
+.dash-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  width: 280px;
+  height: 180px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dash-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+}
+
+/* Specific Card Content */
+.dash-card h2 {
+  margin-top: 10px;
+  font-size: 1.4rem;
+  color: #2c3e50;
+}
+
+.dash-card p {
+  font-size: 1rem;
+  color: #666;
+}
+

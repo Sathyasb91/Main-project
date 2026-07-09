@@ -1,0 +1,97 @@
+/* Scope everything to this page only */
+.profile-edit-page {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  padding: 5px 0;
+}
+
+/* Container */
+.profile-edit-page .profile-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card */
+.profile-edit-page .profile-card {
+  background: #fff;
+  padding: 30px;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 420px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+.profile-edit-page .profile-heading {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #333;
+}
+
+.profile-edit-page .profile-card input,
+.profile-edit-page .profile-card select {
+  width: 100%;
+}
+
+/* Inputs */
+.profile-edit-page input,
+.profile-edit-page select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+/* Focus effect */
+.profile-edit-page input:focus,
+.profile-edit-page select:focus {
+  border-color: #28a745;
+  outline: none;
+  box-shadow: 0 0 5px rgba(40, 167, 69, 0.2);
+}
+
+/* Label */
+.profile-edit-page label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  display: block;
+  color: #555;
+}
+
+/* File input */
+.profile-edit-page input[type="file"] {
+  border: none;
+  margin-bottom: 15px;
+}
+
+/* Button */
+.profile-edit-page .editing {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Button hover */
+.profile-edit-page .editing:hover {
+  background-color: #218838;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  .profile-edit-page .profile-card {
+    padding: 20px;
+  }
+}
